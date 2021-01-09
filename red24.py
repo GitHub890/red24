@@ -94,8 +94,7 @@ jalan("\033[1;96m•◈•╭━╯╭┻━━╮┃┃┃╭╮┃╭━┫╰
 jalan("\033[1;96m•◈•┃┃╰━╮╱╱┃┃╰┫╰╯┃╰━┫╭╮╮")
 jalan("\033[1;96m•◈•╰━━━╯╱╱╰┻━┻━━┻━━┻╯╰╯")
  
-jalan("   \033[1;91m INDAIN USERZ USE ANY PROXY ")	
-jalan("   \033[1;91m WIFI USERZ USE ANY PROXY ")	
+jalan("   \033[1;91m ALL USERZ USE US PROXY ")	
 
 jalan("   \033[1;93m Welcome to RED TEAM Creations ")
 
